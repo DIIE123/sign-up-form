@@ -1,0 +1,105 @@
+:root {
+    --margin-left: 2rem;
+}
+
+h1, h2, p {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    width: 40%;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 10rem;
+    padding: 2rem;
+    color: white;
+}
+
+.right {
+    background: rgb(255, 242, 242);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    margin: 0rem var(--margin-left) 2rem;
+    font-size: 1.5rem;
+}
+
+.form-box {
+    background-color: white;
+    padding: var(--margin-left);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 5px -2px rgb(171, 171, 171);
+}
+
+.labels {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.labels div {
+    margin: 1rem 4rem 1rem 0;
+}
+
+input, label {
+    display: block;
+}
+
+label {
+    color: rgb(255, 134, 154);
+    font-weight: bold;
+}
+
+input {
+    width: 35ch;
+    height: 1.5lh;
+    border: 2px solid rgb(197, 197, 197);
+    border-radius: 3px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid rgb(255, 134, 154);
+    box-shadow: 2px 2px 5px rgb(171, 171, 171);
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+button {
+    background-color: pink;
+    padding: 0.5rem 2rem;
+    margin: 2rem;
+
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(171, 171, 171);
+
+    cursor: pointer;
+}
+
+p {
+    margin: 0 var(--margin-left);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 147, 165);
+}
