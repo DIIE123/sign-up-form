@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Pixelify+Sans:wght@400..700&display=swap');
+
 :root {
     --margin-left: 2rem;
 }
@@ -13,14 +15,17 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
+    font-family: "Pixelify Sans", monospace;
 }
 
 .left {
     width: 40%;
+    background: url(./images/kangel.webp) no-repeat 65%;
+    background-size: cover;
 }
 
 .logo {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 81, 110, 0.8);
     text-align: center;
     margin-top: 10rem;
     padding: 2rem;
@@ -62,8 +67,9 @@ input, label {
 }
 
 label {
-    color: rgb(255, 134, 154);
-    font-weight: bold;
+    color: rgb(255, 81, 110);
+    font-family: "Jersey 15", monospace;
+    letter-spacing: 0.1rem;
 }
 
 input {
@@ -84,6 +90,7 @@ input:invalid {
 }
 
 button {
+    font-family: inherit;
     background-color: pink;
     padding: 0.5rem 2rem;
     margin: 2rem;
